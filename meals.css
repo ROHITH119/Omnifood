@@ -1,0 +1,122 @@
+.section-meals {
+  margin-bottom: 9.6rem;
+}
+
+.meals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+}
+
+.meal {
+  border-radius: 0.9rem;
+  justify-self: center;
+  overflow: hidden;
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translate(0, -2rem);
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.2);
+}
+
+.meal-img {
+  width: 100%;
+  height: 20rem;
+}
+
+.meal-flex {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.meal-flex p:last-child {
+  background-color: #ffe066;
+}
+
+.meal-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #40c057;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+
+.meal-elements {
+  list-style: none;
+}
+
+.meal-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 2.2rem;
+}
+
+.meal-element {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+.main-pac {
+  padding: 2.8rem;
+}
+
+.meal-element {
+  margin: 1.4rem 0;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+li svg {
+  background-color: #d47f35;
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.diet-icon {
+  width: 2.4rem;
+  color: #d47f35;
+}
+
+.diet-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.diets {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recipe-container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.recipe-link:link,
+.recipe-link:visited {
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  font-weight: 600;
+  color: #d47f35;
+  text-decoration: none;
+  border-bottom: 0.1rem solid currentColor;
+  font-size: 2rem;
+}
+
+.recipe-link:hover,
+.recipe-link:active {
+  color: #bf7230;
+  border-bottom: 0.1rem solid transparent;
+}
