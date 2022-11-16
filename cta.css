@@ -17,7 +17,7 @@
       rgba(170, 102, 42, 0.3),
       rgba(212, 127, 53, 0.3)
     ),
-    url("../img/eating.jpg");
+    url("../eating.jpg");
   background-size: cover;
   background-position: center;
 }
